@@ -1,0 +1,15 @@
+#include <stdio.h> int main()
+
+{ float quilos,limite = 50.0,taxa = 4.0; float excesso,multa;
+
+printf("Digite a quantidade de quilos\n"); scanf("%f", &quilos);
+
+if (quilos > limite) { excesso = quilos - limite; multa = excesso * taxa;
+
+printf("A quantidade de quilos passou o limte em pesca %.2f (kg) \n",excesso); printf("A multa de ser paga sera do valor de %.2f\n",multa);
+
+}else{printf ("A quantidade de quilos não passou do limite \n");} return 0;
+
+}
+
+ 
