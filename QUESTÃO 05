@@ -2,7 +2,7 @@
 int main()
 
 { float porcentagem_distribuidor = 0.28,imposto = 0.45,carro; 
-float custo_de_fabrica;p
+float custo_de_fabrica;
 
 printf("Digite o Valor do seu carro\n");
 scanf("%f", &carro);
