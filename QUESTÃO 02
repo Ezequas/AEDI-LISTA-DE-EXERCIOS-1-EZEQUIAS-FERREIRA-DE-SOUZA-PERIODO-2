@@ -1,0 +1,19 @@
+#include <stdio.h> int main()
+
+{float Celsius,fahrenheit;
+
+printf("Digite uma temperadura em grau Celsius\n"); scanf("%f", &Celsius);
+
+
+
+fahrenheit = (Celsius * 9/5) + 32;
+
+
+
+printf("%.4f grau Celsius convertido para fahrenheit sera de %.4f",Celsius, fahrenheit);
+
+
+
+return 0;
+
+}
