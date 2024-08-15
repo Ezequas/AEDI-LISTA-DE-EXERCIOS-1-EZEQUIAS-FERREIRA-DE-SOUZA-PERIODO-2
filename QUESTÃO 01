@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+
+
+int main()
+
+{float lado,area,resultado;
+
+printf("Digite a quantidade de lado do quadrado\n"); scanf("%f", &lado);
+
+area = lado * lado;
+
+printf ("a area do quadrado sera de: %2.f\n",area); resultado = area * area;
+
+printf("o dobro da area sera de %2.f\n",resultado); return 0;
+
+}
